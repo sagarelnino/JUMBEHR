@@ -46,16 +46,16 @@
                 <li class="dropdown <?php if($page == 'events'){ echo 'active';} ?>">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Event <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="events.php?time=future">Upcoming Events</a></li>
-                        <li><a href="events.php?time=past">Previous Events</a></li>
+                        <li><a href="events_logged_in.php?time=future">Upcoming Events</a></li>
+                        <li><a href="events_logged_in.php?time=past">Previous Events</a></li>
                     </ul>
                 </li>
                 <li class="dropdown <?php if($page == 'committee' || $page == 'honorarium_panel' || $page == 'founder_members'){ echo 'active';} ?>">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Organization <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li class="dropdown <?php if($page == 'committee'){ echo 'active';} ?>"><a href="committee.php">Committee</a></li>
-                        <li class="dropdown <?php if($page == 'honorarium_panel'){ echo 'active';} ?>"><a href="honorarium_panel.php">Honorarium Members</a></li>
-                        <li class="dropdown <?php if($page == 'founder_members'){ echo 'active';} ?>"><a href="founder_members.php">Founder Members</a></li>
+                        <li class="dropdown <?php if($page == 'committee'){ echo 'active';} ?>"><a href="committee_logged_in.php">Committee</a></li>
+                        <li class="dropdown <?php if($page == 'honorarium_panel'){ echo 'active';} ?>"><a href="honorarium_panel_logged_in.php">Honorarium Members</a></li>
+                        <li class="dropdown <?php if($page == 'founder_members'){ echo 'active';} ?>"><a href="founder_members_logged_in.php">Founder Members</a></li>
                     </ul>
                 </li>
 

@@ -4,6 +4,7 @@ $page = 'gallery';
 ?>
 <!DOCTYPE html>
 <html>
+<body>
 <?php
 if($_SESSION['type'] == User::USER_TYPE_RECRUITER){
     include 'navbar_recruiter.php';
@@ -11,8 +12,6 @@ if($_SESSION['type'] == User::USER_TYPE_RECRUITER){
     include 'navbar_job_seeker.php';
 }
 ?>
-<body>
-<?php include 'navbar.php'?>
 <div class="container">
     <div class="my-box card-5" align="center">
         <h3 class="text-center title">Gallery</h3>
