@@ -61,10 +61,10 @@
                     </ul>
                 </li>
 
-                <li class="dropdown <?php if($page == 'recruiters'){ echo 'active';} ?>"><a href="recruiters.php">Recruiters</a></li>
-                <li class="dropdown <?php if($page == 'notices'){ echo 'active';} ?>"><a href="notices.php">Notice</a></li>
-                <li class="dropdown <?php if($page == 'contact'){ echo 'active';} ?>"><a href="contact.php">Contact</a></li>
-                <li class="dropdown <?php if($page == 'login'){ echo 'active';} ?>"><a href="login.php">Login</a></li>
+                <li class="dropdown <?php if($page == 'recruiters'){ echo 'active';} ?>"><a href="recruiters_logged_in.php">Recruiters</a></li>
+                <li class="dropdown <?php if($page == 'notices'){ echo 'active';} ?>"><a href="notices_logged_in.php">Notice</a></li>
+                <li class="dropdown <?php if($page == 'contact'){ echo 'active';} ?>"><a href="contact_logged_in.php">Contact</a></li>
+                <li class="dropdown <?php if($page == 'login'){ echo 'active';} ?>"><a href="logout.php">Logout</a></li>
 
             </ul>
         </div><!-- /.navbar-collapse -->
